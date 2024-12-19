@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="icon" href="../img/hamar_crown.png">
+        <link rel="stylesheet" href="../css/shared.css">
+        <link rel="stylesheet" href="../css/register.css">
+        <title>HamarTech</title>
+    </head>
+
+    <body>
+        <div id="top">
+            <h3>HamarTech 2024</h3>
+            <nav>
+                <ul>
+                    <li> <a href="../main/">HamarTech</a> </li>
+                    <li> <a href="../unesco/">UNESCO</a> </li>
+                    <li> <a href="../register/" class="active">Påmeldig</a> </li>
+                    <li> <a href="../quiz/">Quiz</a> </li>
+                </ul>
+            </nav>
+        </div>
+
+        <section id="main">
+            <div class="colorGreen">
+                <h3>Påmelding</h3>
+                <p>Vil du delta i HamarTech? Registrer deg her!</p>
+
+                <input type="text" id="name" placeholder="Navn:">
+                <input type="text" id="email" placeholder="Email:">
+                <div> <button id="regBut">Registrer</button> </div>
+        </section>
+
+        <section id="registered">
+            <h3>Påmelding</h3>
+            <p>Tusen takk for at du har registrert deg, <span id="nameplaceholder"></span>. Vi gleder oss til å se deg!</p>
+        </section>
+
+        <section id="error">
+            <p id="invlaid">Ugyldig E-Mail Adresse. Vi aksepterer bare<span class="bold"> gmail, outlook og hotmail. </span></p>
+        </section>
+
+        <script src="../javascript/register.js"></script>
+    </body>
+</html>

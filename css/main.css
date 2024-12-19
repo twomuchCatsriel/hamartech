@@ -1,0 +1,25 @@
+#banner{
+    display: flex;
+    align-content: flex-end;
+    
+    background-color: red;
+    margin: 100px;
+    padding: 50px;
+}
+
+.changeProgram{
+    padding: 10px 10px;
+}
+
+.startOff{
+    display: none;
+}
+
+section div img{
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+#main{
+    margin-top: 10px;
+}

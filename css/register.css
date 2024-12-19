@@ -1,0 +1,27 @@
+input{
+    padding: 10px 5px;
+    display: inline-block;
+    align-items: center;
+}
+
+#regBut{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 5px;
+}
+
+#registered{
+    display: none;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+#invlaid{
+    color: red;
+}
+
+#error{
+    display: none;
+}

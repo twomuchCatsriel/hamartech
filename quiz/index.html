@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="icon" href="../img/hamar_crown.png">
+        <link rel="stylesheet" href="../css/shared.css">
+        <link rel="stylesheet" href="../css/quiz.css">
+        <title>HamarTech</title>
+    </head>
+
+    <body>
+        <div id="top">
+            <h3>HamarTech 2024</h3>
+            <nav>
+                <ul>
+                    <li> <a href="../main/">HamarTech</a> </li>
+                    <li> <a href="../unesco/">UNESCO</a> </li>
+                    <li> <a href="../register/">Påmeldig</a> </li>
+                    <li> <a href="../quiz/" class="active">Quiz</a> </li>
+                </ul>
+            </nav>
+        </div>
+
+        <section id="main" class="colorGreen">
+            <h3>Quiz</h3>
+            <p>Hva kan du om teknologi? Finn ut, og bli med i trekningen av en datamaskin!</p>
+        </section>
+
+        <section id="quiz" class="colorLighterGreen">
+            <h3 id="quest">[GAMEDEV] Hvilket Programmeringsspråk bruker Spilleprogrammet Unity?</h3>
+            <p">Spørsmål <span id="questnum"></span>/5</p>
+            <button id="a" class="ans">answer1</button>
+            <button id="b" class="ans">answer2</button>
+            <button id="c" class="ans">answer3</button>
+            <button id="d" class="ans">answer4</button>
+        </section>
+
+        <section id="result">
+            <h3>Du har gjort Quizzen! Men, Hvordan gikk det?</h3>
+            <p>Riktige: <span id="right"></span>/5</p>
+            <p id="res">Du kvalifiserte ikke til å bli med på trekningen av en datamaskin. Men, det er ikke over!</p>
+        </section>
+
+        <script src="../javascript/ans.js"></script>
+        <script src="../javascript/quiz.js"></script>
+    </body>
+</html>

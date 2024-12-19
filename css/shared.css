@@ -1,0 +1,80 @@
+body{
+    color: white; /* Temporary Farge */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+    background-color: black;
+    background: url(../img/room-1489768_1280_trans.png) no-repeat fixed black;
+    background-size: 100vw 100vh;
+
+}
+
+
+
+#top h3{
+    background-color: #15B392; /* Temporary Farge */
+    margin: 0;
+    padding: 10px;
+    
+}
+
+#top{
+    position: sticky;
+    top: 0;
+    margin: auto;
+    padding: auto;
+}
+
+
+nav ul{
+    list-style-type: none;
+    background-color: #73EC8B; /* Temporary Farge */
+    margin: 0;
+    padding: 0;
+}
+
+nav li{
+    display: inline-block;
+}
+
+nav li a{
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background-color: #54C392; /* Temporary Farge */
+}
+
+.active{
+    background-color: #15B392; /* Temporary Farge */
+}
+
+.seperate{
+    margin-top: 50px;
+}
+
+.colorGreen{
+    background-color: #72BF78;
+    border-radius: 50px;
+    margin: 0% 2%;
+    margin-bottom: 10px;
+    padding:2px;
+    padding-bottom: 5px;
+}
+
+.colorLighterGreen{
+    background-color: #88C273;
+    opacity: 100%;
+    border-radius: 50px;
+    margin: 0% 2%;
+    margin-bottom: 10px;
+    padding:2px;
+    padding-bottom: 5px;
+}
+
+#main{
+    margin-top: 10px;
+}
